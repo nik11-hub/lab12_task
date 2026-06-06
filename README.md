@@ -8,18 +8,18 @@ Utworzono dedykowane katalogi na logi oraz wygenerowano plik `index.html`.
 
 <img width="940" height="47" alt="image" src="https://github.com/user-attachments/assets/08a56ae7-3b43-49cd-8373-85fe6f24ffc0" />
 
-##2. Utworzenie sieci mostkowej
+## 2. Utworzenie sieci mostkowej
 Zdefiniowano nową sieć typu bridge dla kontenerów.
 
 
 <img width="940" height="126" alt="image" src="https://github.com/user-attachments/assets/76132933-5aff-44ca-874a-1abad2c4250a" />
 
-##3. Uruchomienie kontenerów Nginx
+## 3. Uruchomienie kontenerów Nginx
 Uruchomiono 3 kontenery. Zostały one podłączone do sieci lab12net, porty zmapowano odpowiednio na 8081, 8082, 8083, a wolumeny skonfigurowano przy użyciu zalecanej składni --mount type=bind. Wolumen HTML otrzymał flagę readonly.
 
 <img width="940" height="628" alt="image" src="https://github.com/user-attachments/assets/9f38e67f-07bd-40d8-8ce3-3fc2c3e5e8a3" />
 
-##4. Weryfikacja działania środowiska
+## 4. Weryfikacja działania środowiska
 A. Weryfikacja dostępu do strony WWW
 Sprawdzono poprawność dostarczania treści statycznej HTML ze wszystkich trzech zmapowanych portów serwerów nginx.
 
